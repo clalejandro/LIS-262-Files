@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Tech Blog</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="site.js"></script>
+	</head>
+	<body>
+		
+		<div id="banner">
+			<div class="content">
+				<h1>The Tech Blog - Your Source for Anything about Tech</h1>
+			</div>
+		</div>
+
+		<div class="navbar">
+  			<a href="index.html">Home</a>
+  			<a href="comment.html">Contact</a>
+  			<input type="text" placeholder="Search..">
+		</div>
+
+		<div id="reply">
+				<div id="feedback">
+					<fieldset style="width:500px">
+						<legend>Leave a Reply</legend>
+						<form>
+						<label for="comment">Comment</label><br />
+						<!-- <textarea rows="10" cols="80"> -->
+						<input type="text" placeholder="Comment.." name="comment">
+						<!-- </textarea> -->
+						<br /><br />
+						<label for="name">Name</label></br />
+						<input type="text" placeholder="Your name" name="name"><br /><br />
+						<label for="email">Email</label><br />
+						<input type="text" placeholder="Your email address" name="email"><br /><br />
+						<label for="website">Website</label><br />
+						<input type="text" placeholder="You website address" name="website"><br><br />
+						<br />
+						<button>Submit</button>
+						<button>Reset</button>
+						</form>
+					</fieldset>
+					<br />	
+					<a href="index.html"<button type="button">Back to Home >></button></a>
+				</div>
+		</div>
+		
+
+		<div class="footer">
+			<h6>Copyright 2018</h6>
+				<button id="myBtn" onclick="mySubscribe()">Subscribe</button>
+		</div>
+
+	<div id="myModal" class="modal">
+
+  		<!-- Modal content -->
+  		<div class="modal-content">
+    		<div class="modal-header">
+      		<span class="close">&times;</span>
+      	<h2>SUBSCRIBE</h2>
+    	</div>
+    	<div class="modal-body">
+      		<p>Join my mailing list to receive updates on the latest blog posts...</p>
+      		<p><input type="text" placeholder="Enter email address"></p>
+    	</div>
+    	<div class="modal-footer">
+      		<button type="button">Subscribe</button>
+    	</div>
+	</div>
+</html>
