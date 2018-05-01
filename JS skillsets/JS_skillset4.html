@@ -1,0 +1,20 @@
+<html>
+	<body>
+		<h2 align = "center">Multiplication Table</h2>
+		<script type = "text/javascript">
+			num = parseInt(prompt("Please enter a number: "));
+			num1 = parseInt(prompt("Please enter another number: "));
+			document.write("<center><table border='1px'>");
+			for (i = 1; i <= num; i++)
+			{
+				document.write("<tr style='height:30px'>");
+				for (j = 1; j <= num1; j++)
+				{
+					document.write("<td style='width:30px'><center><font size='4'>" + i*j + "</center></font></td> ");
+				}
+				document.write("</tr>");
+			}
+			document.write("</table></center>");
+		</script>
+	</body>
+</html>
