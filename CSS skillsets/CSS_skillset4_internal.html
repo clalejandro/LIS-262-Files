@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>CSS Skillset 4</title>
+		<style type="text/css">
+			.Title {background-color: gray; text-align: center;}
+			.Row {text-align: left;}
+			.Button {text-align: right;}
+		</style>
+	</head>
+	<form>
+	<table border="0">
+		<tr>
+			<td class="Title" colspan="2"><h1>Membership Registration</h1></td>	
+		</tr>
+
+		<tr>
+			<td class="Row" rowspan="2">
+				<fieldset style="width:220px">
+				<legend>Personal Info</legend>
+				First Name: <input type="text" name="firstname"><br>
+				Last Name: <input type="text" name="lastname"><br>
+				Address:<br>
+				<input type="text" name="address1"><br>
+				<input type="text" name="address2"><br>
+				<input type="text" name="address3"><br>
+				</form>
+				<br>
+				Marital Status:<br>
+				<select name="status">
+					<option value="Single">Single</option>
+					<option value="Married">Married</option>
+				</select>
+				<input type="radio" name="transport" value="car">Has a car
+				<input type="radio" name="transport" value="nocar">No car
+				<br><br>
+				</fieldset>
+			</td>
+			<td class="Row">
+				<i>Please enter your information on the left</i><br>
+				<i>and comments below</i>
+				<br><br>
+				<textarea rows="10" cols="40">
+				
+comments..
+				</textarea>
+				<br>
+			</td>
+		</tr>
+		<tr>
+			
+			<td class="Button">
+				<input type="submit" value="Submit">
+				<input type="submit" value="Reset">
+			</td>
+		</tr>
+
+	</table>
+	</form>	
+</html>
